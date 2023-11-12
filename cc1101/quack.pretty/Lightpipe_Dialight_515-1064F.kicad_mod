@@ -3,6 +3,7 @@
 #
 # SPDX-License-Identifier: CC-BY-SA-4.0 WITH KiCad-libraries-exception
 #
+
 (footprint "Lightpipe_Dialight_515-1064F" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "https://www.dialightsignalsandcomponents.com/515-optopipe-light-pipe-trilevel-2-5mm-rnd-flat-diff-lens-press-fit/#tab-resources")
@@ -74,7 +75,12 @@
     (rotate (xyz 0 0 0))
   )
   (model "${KIPRJMOD}/3dmodels/Lightpipe_Dialight_515-1064F.wrl"
-    (offset (xyz 0 2.5 0))
+    (offset (xyz -0.35 -8.9 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 0))
+  )
+  (model "${KIPRJMOD}/3dmodels/Lightpipe_Dialight_515-1064F.stp"
+    (offset (xyz -0.35 -8.9 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))
   )

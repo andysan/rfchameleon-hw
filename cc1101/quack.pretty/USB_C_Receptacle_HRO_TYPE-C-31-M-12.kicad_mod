@@ -85,4 +85,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
+  (model "${KIPRJMOD}/3dmodels/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
+    (offset (xyz 0 -1.1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

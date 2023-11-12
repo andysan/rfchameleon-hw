@@ -98,6 +98,11 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KIPRJMOD}/3dmodels/SMA_Molex_73251-2120_EdgeMount_Horizontal.stp"
+    (offset (xyz 14.5 0 0.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 -90))
+  )
   (model "${KIPRJMOD}/3dmodels/SMA_Molex_73251-2120_EdgeMount_Horizontal.wrl"
     (offset (xyz 14.5 0 0.6))
     (scale (xyz 1 1 1))
